@@ -1,0 +1,36 @@
+.calculator {
+  width: fit-content;
+}
+
+.display {
+  border: 1px solid;
+  margin-bottom: 5px;
+  padding: 15px 10px;
+  text-align: right;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  gap: 5px;
+}
+
+.button {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.function {
+  background-color: coral;
+}
+
+.number {
+  background-color: bisque;
+}
+
+#Num0 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
